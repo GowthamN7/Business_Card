@@ -69,10 +69,10 @@ reader = easyocr.Reader(['en'], gpu=False)
 
 
 # CONNECTING WITH MYSQL DATABASE
-mydb = sql.connect(host=st.secrets["sql_host"],
-                   user=st.secrets["sql_user"],
-                   password=st.secrets["sql_pass"],
-                   database=st.secrets["sql_db"]
+mydb = sql.connect(host="bgpyw10vx8jmfgm9icc6-mysql.services.clever-cloud.com",
+                   user="u2sccuhu4htw108a",
+                   password="aRtv4amPr95TWX7Wj3J8",
+                   database="bgpyw10vx8jmfgm9icc6"
                   )
 mycursor = mydb.cursor(buffered=True)
 
