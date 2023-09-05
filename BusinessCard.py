@@ -58,7 +58,6 @@ st.markdown("<h1 style='text-align: center; font-style: oblique'>Get Card Info h
 
 # Creating Option Menu
 selected = st.selectbox("Select an option", ["Home", "Upload & Extract", "Modify"],
-                       #format_func=lambda x: f'<div class="option-menu">{x}</div>',
                        index=0,
                        key="option_menu"
                        )
